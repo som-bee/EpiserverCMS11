@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.33801.447
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EpiserverCMS11", "EpiserverCMS11.csproj", "{987FB008-C1BF-4FF0-97E4-6C81469628E6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{987FB008-C1BF-4FF0-97E4-6C81469628E6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{987FB008-C1BF-4FF0-97E4-6C81469628E6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{987FB008-C1BF-4FF0-97E4-6C81469628E6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{987FB008-C1BF-4FF0-97E4-6C81469628E6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {9168E698-F6E1-44AB-B9A0-4F2FADC5B97E}
+	EndGlobalSection
+EndGlobal
