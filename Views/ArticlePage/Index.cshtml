@@ -3,8 +3,38 @@
     ViewBag.Title = "Articles";
 }
 
-<div>
+<div class="content">
     <h2>@Html.PropertyFor(x => x.PageTitle)</h2>
     <p>@Html.PropertyFor(x => x.MainBody)</p>
+
+
+</div>
+
+
+<div class="content">
+    <div>
+        <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Open+Sans" />
+        <div class="webinar-grid">
+
+            <a href="/learning/webinars/18-12-2016-visualizing-r-advanced-analytics-results-in-dundas-bi" class="link-block">
+                <div class="jumbotron left-right-jumbotron-block">
+                    <div class="webinar-image-container">
+                        <img src="http://www.dundas.com/Content/uploads/Center6.jpg">
+                    </div>
+                    <h1 class="dundas-blue-text-long">
+                        How Center6 Empowers their Customers with White Labeled Dundas BI Analytics - Webinars
+                    </h1>
+
+                    <div class="webinar-content-box">
+                        <p>We’ll show you how Dundas BI lets you use all of the existing data connections to inject data into R and then visualize and interact with the results in Dundas BI so more people get faster insights and make better decisions.</p>
+                        <span class="dundas-blue-link">View webinar &gt;</span>
+                    </div>
+                </div>
+            </a>
+
+
+        </div>
+    </div>
+
 </div>
 
