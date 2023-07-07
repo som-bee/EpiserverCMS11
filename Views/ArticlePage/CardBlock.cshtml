@@ -1,0 +1,12 @@
+﻿@model EpiserverCMS11.Models.Blocks.ArticleBlock
+
+
+<div class="card">
+    @*<img src="@Model.ImageUrl" alt="@Model.Title" class="card-image">*@
+    @Html.PropertyFor(x=>x.ArticleImage)
+    <div class="card-content">
+        <h3 class="card-title">@Model.ArticleTitle</h3>
+        <p class="card-description">@Model.ArticleDescription</p>
+        <!-- Add more properties to be displayed on the card -->
+    </div>
+</div>

@@ -11,11 +11,21 @@ namespace EpiserverCMS11.Controllers
 {
     public class ArticlePageController : PageController<ArticlePage>
     {
+        private readonly IContentRepository _contentRepository;
+
+        public ArticlePageController()
+        {
+            
+        }
+        public ArticlePageController(IContentRepository contentRepository)
+        {
+            _contentRepository = contentRepository;
+        }
         public ActionResult Index(ArticlePage currentPage)
         {
             /* Implementation of action. You can create your own view model class that you pass to the view or
              * you can pass the page type for simpler templates */
-
+            ViewBag.articile = currentPage.ArticlesArea;
             return View(currentPage);
         }
     }
