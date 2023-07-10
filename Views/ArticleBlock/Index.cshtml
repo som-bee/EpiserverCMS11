@@ -1,18 +1,29 @@
 ﻿@model EpiserverCMS11.Models.Blocks.ArticleBlock
 
 
-    <a href="">
-        <div class="jumbotron left-right-jumbotron-block">
-            <div class="webinar-image-container">
-                @Html.PropertyFor(x=>x.ArticleImage)
-            </div>
-            <h1 class="dundas-blue-text-long">
-                @Html.PropertyFor(x=>x.ArticleTitle)
-            </h1>
-
-            <div class="webinar-content-box">
-                <p>@Html.PropertyFor(x=>x.ArticleDescription)</p>
-                <span class="dundas-blue-link">View article &gt;</span>
-            </div>
+<a class="link-block" href="">
+    <div class="jumbotron left-right-jumbotron-block">
+        <div class="webinar-image-container">
+            @Html.PropertyFor(x => x.ArticleImage)
         </div>
-    </a>
+        <h1 class="dundas-blue-text-long">
+            @Html.PropertyFor(x => x.ArticleTitle)
+        </h1>
+
+        <div class="webinar-content-box">
+            <p>@Html.PropertyFor(x => x.ArticleDescription)</p>
+            <span class="dundas-blue-link">View article &gt;</span>
+        </div>
+    </div>
+</a>
+
+<!--<div class="card-container">
+    <div class="card">
+        @Html.PropertyFor(x => x.ArticleImage, new { @class = "card-image" })
+        <div class="card-content">
+            <h3 class="card-title">@Html.PropertyFor(x => x.ArticleTitle)</h3>
+            <p class="card-description">@Html.PropertyFor(x => x.ArticleDescription)</p>
+        </div>
+    </div>-->
+    <!-- Repeat the above code for other article cards -->
+<!--</div>-->
